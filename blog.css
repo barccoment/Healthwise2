@@ -67,13 +67,6 @@ a:hover
   flex-wrap: nowrap;
     }
 }
-@media only screen and (max-width:600px)
-{
-    #header , #footer
-    {
-        flex: row nowrap;
-    }
-}
 #ads2
 {
 border:1px solid ghostwhite;
