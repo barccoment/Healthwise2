@@ -58,7 +58,7 @@ a:hover
 {
     color:#800000;
 }
-@media screen and (max-width: 700px)
+@media (min-width: 500px)
 {
 
     #main-body, body
