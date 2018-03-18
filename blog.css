@@ -12,7 +12,7 @@ box-sizing: border-box;
 #header
 {
     background: #568556bb; 
-    border:1px solid transparent;
+    border:1px solid black;
     position: relative;
     width:1250px;
     min-width:400px;
@@ -84,6 +84,8 @@ height:30px;
 position:relative;
 top:20px;
 border-radius: 5px;
+display:flex;
+    flex-wrap:nowrap;
 
 }
 #post
