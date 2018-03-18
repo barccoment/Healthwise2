@@ -14,11 +14,14 @@ box-sizing: border-box;
     background: #568556bb; 
     border:1px solid transparent;
     position: relative;
-    max-width: 1250px;
+    width:1250px;
+    min-width:400px;
     border-radius: 20px;
     height: 100px;
     display:block;
-    overflow: hidden;
+    overflow:hidden;
+    padding:13px 60px;
+    margin:5px;ss
 }
 .logo
 {
@@ -58,7 +61,7 @@ a:hover
 {
     color:#800000;
 }
-@media screen and (max-width: 700px)
+@media screen and (min-width: 400px)
 {
 
     #main-body, body
@@ -67,7 +70,7 @@ a:hover
   flex-wrap: nowrap;
     }
 }
-@media only screen and (max-width:600px)
+@media only screen and (min-width:400px)
 {
     #header , #footer
     {
@@ -150,9 +153,13 @@ text-align:center;
 position:relative;
 left:10px;
 right:10px;
-max-width: 1250px;
+width: 1250px;
+min-width:400px;
 border-radius: 20px;
 overflow:none;
+padding:0px 30px;
+margin:15px;
+outline:none;
 }
 p>span
 {
