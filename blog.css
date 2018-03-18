@@ -16,8 +16,8 @@ box-sizing: border-box;
     position: relative;
     border-radius: 20px;
     height: 100px;
-    display:block;
-    overflow: hidden;
+    display:flex;
+    overflow: auto;
 }
 .logo
 {
@@ -145,7 +145,7 @@ position:relative;
 left:10px;
 right:10px;
 border-radius: 20px;
-overflow:none;
+overflow:auto;
 }
 p>span
 {
