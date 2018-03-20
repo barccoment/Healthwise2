@@ -1,7 +1,7 @@
 html{}
 body
 {
-background:url("images/healthwise6.jpg");
+background:url("healthwise6.jpg");
 margin:12px;
 background-repeat: no-repeat;
 
@@ -9,40 +9,45 @@ background-repeat: no-repeat;
 * {
 box-sizing: border-box;
 }
-#header
-{
-    background: #568556bb; 
+#header{
+    background: #568556bb;
+    width:1240px;
+    min-width: 500px;
+    height:100px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between ;
+    border-radius:20px;
+    padding:15px;
+    margin:15px;
+    overflow: hidden;
+    line-height:12px;
     border:1px solid black;
-    position: relative;
-    width:1250px;
-    min-width:400px;
-    border-radius: 20px;
-    height: 100px;
-    display:block;
+}
+
+#menu{
+    width:1000px;
+    height:100px;
+    display:flex;
+    flex-flow:row nowrap;
+    -ms-flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style-type: none;
     overflow:hidden;
-    padding:13px 60px;
-    margin:5px;
+    margin:auto;
+
 }
-.logo
-{
-    display:inline-block;
-    position:absolute;
-    top:2px;
-}
-ul
-{
-  display:flex;
-  flex-flow: row nowrap;
-  justify-content:space-around;
-  padding:30px;
-  list-style: none;
-  position:relative;
-  left:80px;
-  margin:auto;
+#logo{
+    width:200px;
+    height:100px;
+    overflow:hidden;
+
 }
 li
 {
-display:flex;
+    float:left;
+    position:relative;
+    top:50px
 }
 a{
     text-decoration: none;
@@ -61,31 +66,28 @@ a:hover
 {
     color:#800000;
 }
-@media screen and (min-width: 400px)
-{
-
-    #main-body, body
-    {
-  flex-direction: row;
-  flex-wrap: nowrap;
-    }
-}
-@media only screen and (min-width:400px)
+@media (min-width:400px)
 {
     #header , #footer
     {
+        display:flex;
         flex: row nowrap;
+        position:relative;
     }
 }
 #ads2
 {
-border:1px solid ghostwhite;
-height:30px;
+height:70px;
 position:relative;
-top:20px;
+top:0px;
 border-radius: 5px;
 display:flex;
     flex-wrap:nowrap;
+    width:1250px;
+    margin:10px;
+    overflow:hidden;
+    flex-flow:row nowrap;
+    border-radius: 20px;
 
 }
 #post
@@ -146,34 +148,49 @@ float:right;
     max-width: 1250px;
     
 }
-#footer
-{
-border: 1px solid black;
-height: 200px;
-background:#568556bb;
-text-align:center;
-position:relative;
-left:10px;
-right:10px;
-width: 1250px;
-min-width:400px;
-border-radius: 20px;
-overflow:none;
-padding:0px 30px;
-margin:15px;
-outline:none;
+#footer{
+    border:1px solid black;
+    background:#568556bb;
+    height:200px;
+    width:1250px;
+    min-width: 500px;
+    display:flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow:row wrap;
+    overflow:hidden;
+    justify-content: space-around;
+    border-radius:20px;
 }
-p>span
-{
+#design{
+    height:50px;
+    width:500px;
     position:relative;
-    top:160px;
-    font-size: 20px;
-    color: white;
-
+    top:145px;
+    left:20px;
+    overflow:none;
+    display:flex;
+    -ms-flex-flow:row nowrap;
+    flex-flow:row nowrap;
+    text-align:center;
+    text-indent: 200px;
+    padding:0px;
+    margin:0px;
 }
-h3>span
-{
-float:right;
-font-style: inherit;
-color:white;
+#contact{
+    height:170px;
+    width:500px;
+    position:relative;
+    top:20px;
+    overflow:auto;
+    display:inline-block;
+    text-align: center;
+}
+p>span{
+  position:relative;
+  display:block;
+  font-size: 15px;
+  color:rgb(255, 255, 255);
+}
+h3>span{
+   color:rgb(255, 255, 255);
 }
