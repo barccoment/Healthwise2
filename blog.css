@@ -10,7 +10,7 @@ background-repeat: no-repeat;
 box-sizing: border-box;
 }
 #header{
-    background: #568556bb;
+    background: rgb(82, 150, 110);
     width:1240px;
     min-width: 500px;
     height:100px;
@@ -52,19 +52,19 @@ li
 a{
     text-decoration: none;
     font-size: 25px;
-    color:#ffffff;
+    color:white;
 }
 a:active
 {
-color:#ffff00;
+color:rgb(219, 221, 73);
 }
 a:visited
 {
-    color:#ffffff;
+    color:rgba(255, 255, 255, 0.904);
 }
 a:hover
 {
-    color:#800000;
+    color:rgb(224, 104, 49);
 }
 @media (min-width:400px)
 {
@@ -147,7 +147,7 @@ float:right;
 }
 #footer{
     border:1px solid black;
-    background:#568556bb;
+    background:rgb(82, 150, 110);
     height:200px;
     width:1250px;
     min-width: 500px;
